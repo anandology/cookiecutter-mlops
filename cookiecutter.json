@@ -1,0 +1,6 @@
+{
+    "project_title": "Penguins",
+    "project_directory": "{{ cookiecutter.project_title.lower().replace(' ', '-') }}",
+    "python_package": "{{ cookiecutter.project_directory.lower().replace('-', '_') }}",
+    "project_description": "Description of the project comes here."
+}
