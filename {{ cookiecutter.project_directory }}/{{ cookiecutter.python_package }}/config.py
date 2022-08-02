@@ -14,3 +14,9 @@ model_path = os.path.join(BASE_PATH, "models/model.pkl")
 
 # Path to the input data for training
 data_path = os.path.join(BASE_PATH, "data/data.csv")
+
+# names of the columns to use for training
+features = []
+
+# nsme of the column to predict
+target = None
